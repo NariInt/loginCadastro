@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de login</title>
+    <style>
+        body{
+        font-family:Arial, Helvetica, sans-serif;    
+        background-image: linear-gradient(90deg, white, cyan ); 
+        }
+        div{
+            background-color: rgba(6, 19, 31, 0.9);
+            position:absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 100px;
+            border-radius: 15px;
+            color: white;
+        }
+        input{
+            padding: 15px;
+            border:none;
+            outline: none;
+            border-radius: 15px;
+            
+
+        }
+        button{
+            background-color: dodgerblue;
+            border: none;
+            padding: 15px;
+            width: 100%;
+            border-radius: 10px;
+            color: white;
+            font-size: 15px;
+            cursor: pointer;
+
+        }
+        button:hover{
+            background-color: rgb(6, 59, 77);
+        }
+        h1 {
+      text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Login </h1>
+        <input type="text" placeholder="Nome"> <!--placeholder o que fica dentro do input-->
+        <br><br>
+        <input type="password" 
+        placeholder="Senha">
+        <!--"br" serve para quebrar linhas-->
+        <br><br>
+        <button>Entrar</button>
+        <h1><a href="cadastro.html"><button>Cadastrar</button></a></h1>
+        
+        
+        
+    </div>
+    
+</body>
+</html>
